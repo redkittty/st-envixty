@@ -25,6 +25,7 @@ The patches that I used in this build include:
 | desktopentry (Adds a desktop entry)                                         |
 | scrollback (Allows you to scroll back)                                      |
 | xresources (Allows you to use your .Xresources file for configuring colors) |
+| liguratures (Added Support for liguratures)                                 |
 |-----------------------------------------------------------------------------|
 
 * Installing st-envixty on Arch Linux
@@ -56,5 +57,5 @@ NOTE: THIS WILL ERASE YOUR EXISTING ST BUILD
 Ex:
 
 #+begin_src bash
-git clone httpsL//github.com/redkittty/st-envixty.git && cd st-envixt && sudo make clean install
+git clone httpsL//github.com/redkittty/st-envixty.git && cd st-envixty && sudo make clean install
 #+end_src
