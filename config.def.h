@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
    /* 8 normal colors */
-   [0] = "#444b6a", /* black */
-   [1] = "#ff7a93", /* red */
-   [2] = "#b9f27c", /* green */
-   [3] = "#ff9e64", /* yellow */
-   [4] = "#7da6ff", /* blue */
-   [5] = "#bb9af7", /* magenta */
-   [6] = "#0db9d7", /* cyan */
-   [7] = "#acb0d0", /* white */
+   [0] = "#665c54", /* black */
+   [1] = "#cc241d", /* red */
+   [2] = "#98971a", /* green */
+   [3] = "#d79921", /* yellow */
+   [4] = "#458588", /* blue */
+   [5] = "#b16286", /* magenta */
+   [6] = "#689d6a", /* cyan */
+   [7] = "#a89984", /* white */
 
    /* 8 bright colors */
-   [8] = "#32344a", /* black */
-   [9] = "#f7768e", /* red */
-   [10] = "#9ece6a", /* green */
-   [11] = "#e0af68", /* yellow */
-   [12] = "#7aa2f7", /* blue */
-   [13] = "#ad8ee6", /* magenta */
-   [14] = "#449dab", /* cyan */
-   [15] = "#9699a8", /* white */
+   [8] = "#7c6f64", /* black */
+   [9] = "#fb4934", /* red */
+   [10] = "#b8bb26", /* green */
+   [11] = "#fabd2f", /* yellow */
+   [12] = "#83a598", /* blue */
+   [13] = "#d3869b", /* magenta */
+   [14] = "#8ec07c", /* cyan */
+   [15] = "#bdae93", /* white */
 
 
 
    [255] =  0,
 
    /* bg and fg */
-   "#a9b1d6", /* foreground */
-   "#24283b", /* background */
+   "#ebdbb2", /* foreground */
+   "#282828", /* background */
 };
 
 
